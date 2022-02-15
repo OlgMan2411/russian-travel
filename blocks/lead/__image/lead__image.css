@@ -1,7 +1,30 @@
 .lead__image {
-    min-width: 100%;
-    height: 615px;
+    /* min-width: 100%;
+    height: 615px; 
+    object-fit: cover; */
+    width: 100%;
+    height: auto;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 0;
     object-fit: cover;
-    /* overflow-x: visible;
-    overflow-y: hidden; */
 }
+
+/* @media screen and max-width(1024px) {
+    .lead__image {
+    max-height: 580px;
+    }
+}
+
+@media screen and max-width(768px) {
+    .lead__image {
+    max-height: 480px;
+    }
+}
+
+@media screen and max-width(425px) {
+    .lead__image {
+    max-height: 480px;
+    }
+} */

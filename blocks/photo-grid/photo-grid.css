@@ -1,0 +1,13 @@
+.photo-grid {
+    width: 100%;
+    /* height: auto; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* position: relative;
+    padding-bottom: 75%; */
+}

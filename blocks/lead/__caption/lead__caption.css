@@ -9,5 +9,9 @@
     font-style: normal;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    position: absolute;
+    bottom: -23px;
+    left: 0;
+    z-index: 1;
     /* text-align: center; */
 }

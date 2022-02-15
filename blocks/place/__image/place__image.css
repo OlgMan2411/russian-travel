@@ -1,0 +1,6 @@
+.place__image {
+    width: calc(100%/2 - 40px);
+    height: auto;
+    object-fit: cover;
+    align-self: flex-start;
+}

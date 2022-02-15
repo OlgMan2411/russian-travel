@@ -1,12 +1,12 @@
-.lead__title {
+.intro__title {
     margin: 0;
     padding: 0;
-    max-width: 720px;
+    max-width: 690px;
     box-sizing: border-box;
     /* width: 100%; */
-    font-size: 96px;
-    line-height: 1;
+    font-size: 54px;
+    line-height: 1.3;
     font-weight: 900;
     font-style: normal;
-    text-align: center;
+    /* text-align: center; */
 }

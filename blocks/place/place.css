@@ -1,9 +1,15 @@
 .place {
     width: 100%;
-    margin-bottom: 80px; 
+    margin-bottom: 83px; 
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-end;
     gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        margin-bottom: 92px;
+    }
 }

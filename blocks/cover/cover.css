@@ -10,7 +10,7 @@
     overflow: hidden;
     color: #fff;
     text-decoration: none;
-    min-height: 740px;
+    min-height: 760px;
 }
 
 .cover:before {
@@ -32,4 +32,9 @@
 .cover:hover:before {
     opacity: 0.8;
 }
-  
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        min-height: 657px;
+    }
+}

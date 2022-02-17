@@ -9,3 +9,15 @@
     font-style: normal;
     text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        padding-bottom: 45px;
+    }
+}
+
+/* @media screen and (max-width: 768px) {
+    .lead__subtitle {
+        padding-bottom: 45px;
+    }
+} */

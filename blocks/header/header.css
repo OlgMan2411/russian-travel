@@ -1,10 +1,22 @@
 .header {
     width: 100%;
-    min-height: 52px;
+    /* min-height: 52px; */
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin: auto; 
     padding-top: 28px;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: calc(100% - 48px*2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: calc(100% - 24px*2);
+    }
 }

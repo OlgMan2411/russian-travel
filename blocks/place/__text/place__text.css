@@ -1,4 +1,4 @@
 .place__text {
-    width: calc(100%/2);    
+    width: calc(100%/2 - 30px);    
     align-self: flex-start;
 }

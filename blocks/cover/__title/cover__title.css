@@ -11,3 +11,18 @@
     text-align: center;
     align-self: center;
 }
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        font-size: 50px;
+        padding: 0 0 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__title {
+        max-width: 288px;
+        font-size: 32px;
+        padding: 0 0 16px;
+    }
+}

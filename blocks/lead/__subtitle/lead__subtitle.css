@@ -10,14 +10,21 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
     .lead__subtitle {
-        padding-bottom: 45px;
+        padding-bottom: 30px;
     }
 }
-
-/* @media screen and (max-width: 768px) {
+/* 
+@media screen and (max-width: 509px) {
     .lead__subtitle {
-        padding-bottom: 45px;
+        font-size: 26px;
     }
 } */
+
+@media screen and (max-width: 424px) {
+    .lead__subtitle {
+        font-size: 16px;
+        padding: 16px 0 40px;
+    }
+}

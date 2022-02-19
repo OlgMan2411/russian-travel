@@ -2,16 +2,27 @@
     width: calc(100% - 100px*2);
     margin: auto;
     padding: 94px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .places {
         width: calc(100% - 48px*2);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .places {
         width: calc(100% - 24px*2);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places {
+        width: 100%;
+        padding: 64px 0 0;
     }
 }

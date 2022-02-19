@@ -1,15 +1,32 @@
 .place {
     width: 100%;
-    margin-bottom: 83px; 
+    margin: 0 0 95px; 
+    padding: 0;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-end;
-    gap: 40px;
+    /* gap: 40px; */
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .place {
-        margin-bottom: 92px;
+        margin-bottom: 84px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        margin-bottom: 72px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        margin-bottom: 50px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 }

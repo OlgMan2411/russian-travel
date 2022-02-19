@@ -2,4 +2,12 @@
     /* filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
     stroke: #000000;
     stroke-width: 1px; */
+    width: 176px;
+    height: auto;
+}
+
+@media screen and (max-width: 424px) {
+    .header__logo {
+        width: 142px;
+    }
 }

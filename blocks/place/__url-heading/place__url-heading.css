@@ -7,3 +7,10 @@
     font-style: normal;
     letter-spacing: 0.2em;    
 }
+
+
+/* @media screen and (max-width: 320px) {
+    .place__url-heading {
+        max-width: 100%;        
+    }
+} */

@@ -10,3 +10,9 @@
     font-style: normal;
     /* text-align: center; */
 }
+
+@media screen and (max-width: 767px) {
+    .intro__title {
+        font-size: 32px;
+    }
+}

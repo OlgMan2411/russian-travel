@@ -1,24 +1,24 @@
 .place__image {
-    width: 45.4%;
-    min-height: 45.4%;
-    max-height: 45.4%;
+    width: 46.6%;
+    min-height: 46.6%;
+    max-height: 46.6%;
     object-fit: cover;
     align-self: flex-start;
 }
 
 @media screen and (max-width: 1279px) {
     .place__image {
-        width: 45%;
-        min-height: 45%;
-        max-height: 45%;  
+        width: 47.5%;
+        min-height: 47.5%;
+        max-height: 47.5%;  
     }
 }
 
 @media screen and (max-width: 1023px) {
     .place__image {
-        width: 44%;
-        min-height: 44%;
-        max-height: 44%;
+        width: 47%;
+        min-height: 47%;
+        max-height: 47%;
     }
 }
 

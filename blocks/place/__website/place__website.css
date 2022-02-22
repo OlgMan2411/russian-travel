@@ -6,10 +6,17 @@
     margin: 0 0 48px;
 }
 
+@media screen and (max-width: 1279px) {
+    .place__website {
+        width: 48%;
+        padding-left: 32px;
+    }
+}
+
 @media screen and (max-width: 1023px) {
     .place__website {
         width: 49%;
-        padding-left: 30px;
+        padding-left: 44px;
     }
 }
 
@@ -22,5 +29,11 @@
         padding-left: 16px;
         margin: 0 0 32px;
         align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .place__website {        
+        margin: 0 0 30px;
     }
 }

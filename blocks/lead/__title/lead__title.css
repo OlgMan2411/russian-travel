@@ -5,7 +5,7 @@
     /* box-sizing: border-box; */
     /* width: 100%; */
     font-size: 96px;
-    line-height: 1;
+    line-height: 1.04;
     font-weight: 900;
     font-style: normal;
     text-align: center;
@@ -13,27 +13,14 @@
 
 @media screen and (max-width: 767px) {
     .lead__title {
-    /* max-width: calc(100% - 24px*2); */
     font-size: 60px;
-    /* word-wrap: break-word; */
     }
 }
-
-/* @media screen and (max-width: 767px) {
-    .lead__title {
-    font-size: 60px;
-    }
-} */
-
-/* @media screen and (max-width: 457px) {
-    .lead__title {
-    font-size: 45px;
-    }
-} */
 
 @media screen and (max-width: 424px) {
     .lead__title {
         max-width: calc(100% - 16px*2);
         font-size: 40px;
+        line-height: 1.09;
     }
 }

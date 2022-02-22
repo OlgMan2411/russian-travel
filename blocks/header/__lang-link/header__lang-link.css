@@ -2,7 +2,7 @@
     margin: 0 18px 0 0;
     padding: 0;
     text-decoration: none;
-    line-height: 2;
+    line-height: 1.6;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -19,6 +19,6 @@
 @media screen and (max-width: 424px) {
     .header__lang-link {
         font-size: 18px;
-        /* line-height: 1.1; */
+        line-height: 1.9;
     }
 }

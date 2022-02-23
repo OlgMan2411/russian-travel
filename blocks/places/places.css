@@ -1,7 +1,7 @@
 .places {
     width: calc(100% - 100px*2);
     margin: auto;
-    padding: 94px 0 0;
+    /* padding: 92px 0 92px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,19 +10,20 @@
 
 @media screen and (max-width: 1279px) {
     .places {
-        width: calc(100% - 48px*2);
+        width: calc(100% - 48px*2);        
     }
 }
 
 @media screen and (max-width: 1023px) {
     .places {
-        width: calc(100% - 24px*2);
+        width: calc(100% - 24px*2);        
     }
 }
 
 @media screen and (max-width: 767px) {
     .places {
-        width: 100%;
-        padding: 64px 0 0;
+        width: 100%;            
+        padding-bottom: 64px;
+        padding-top: 66px;        
     }
 }

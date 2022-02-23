@@ -3,25 +3,23 @@
     flex-direction: column;
     justify-content: center;
     margin: 0;
-    padding: 0 0 15px;
+    /* padding: 0 0 15px; */
     box-sizing: border-box;
     max-width: 100%;
     position: relative;
     z-index: 0;
     color: #fff;
     text-decoration: none;
-    min-height: 760px;
+    min-height: 740px;
 }
 
 .cover:before {
     content: '';
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: absolute;    
+    left: 0;    
     bottom: 0;
-    width: 100%;
+    width: 100%;    
     height: 100%;
     background-color: rgba(42, 44, 47, 1);
     opacity: 0.3;
@@ -35,15 +33,13 @@
 
 @media screen and (max-width: 1279px) {
     .cover {
-        min-height: 657px;        
-        padding: 0 0 13px;
+        min-height: 640px;                
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover {
-        min-height: 495px;
-        padding: 0 0 13px;
+        min-height: 480px;        
     }
 }
 
@@ -51,10 +47,5 @@
     .cover {
         min-height: 200px;
     }
-}
-
-@media screen and (max-width: 424px) {
-    .cover {
-        min-height: 200px;
-    }
+    
 }

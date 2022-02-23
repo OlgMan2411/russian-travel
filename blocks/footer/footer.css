@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 76px;
+    padding-top: 92px;
     padding-bottom: 24px;
 }
 
@@ -17,6 +17,7 @@
 @media screen and (max-width: 1023px) {
     .footer {
         width: calc(100% - 24px*2);
+        padding-top: 88px;
     }
 }
 
@@ -31,8 +32,7 @@
         width: calc(100% - 16px*2);
         flex-direction: column;
         justify-content: space-between;
-        padding-top: 64px;
-        padding-bottom: 24px;
+        padding-top: 65px;        
         
     }
 }
